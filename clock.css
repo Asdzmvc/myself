@@ -1,0 +1,110 @@
+/* .box {
+    display: inline-flexbox;
+    position: relative;
+    color: black;
+    background-color: aqua;
+    height: max-content;
+
+}
+
+body {
+    max-width: 1340px;
+}
+
+.box p {
+    position: relative;
+    top: 5px;
+    left: 40px;
+    font-family: geramond;
+}
+
+.textsyle {
+    position: relative;
+    font-style: normal;
+    left: 20px;
+}
+
+.textstyle p {
+    position: relative;
+    left: 20px;
+}
+
+.button-24 {
+    display: inline-flexbox;
+    position: relative;
+    left: 1195px;   
+    bottom: 65px;
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    min-height: 20px;
+    outline: 0;
+    padding: 6px 10px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color:  #008080;
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }
+
+  .button-25 {
+    display: inline-flexbox;
+    position: relative;
+    left: 1200px;
+    bottom: 65px;
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    min-height: 20px;
+    outline: 0;
+    padding: 6px 10px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-25:hover,
+  .button-25:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #008080 ;
+  }
+  
+  .button-25:active {
+    opacity: .5;
+  } */
