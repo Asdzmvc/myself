@@ -263,7 +263,7 @@
 // const volume = (a, b, c) => a * b * c;
 // console. log(volume(1, 2, 3)); //6
 
-  //Function declaration
+//   Function declaration
 //   function even0r0ddDec(number) {
 //     if (number % 2 === 0) {
 //         console.log(`${number} is even`);
