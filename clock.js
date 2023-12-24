@@ -373,5 +373,74 @@
 //         console.log(`${number} is odd`);
 //     }
 // }
-// evenOrOddArrow(3)
+// evenOrOddArrow(3);
+
+   // Function declaration
+//    function maxDec(number1, number2) {
+//     if (number1 >= number2) {
+//         return number1;
+//     }
+//     return number2;
+//    }    
+//    console.log(maxDec(2, 3))
+
+    // // Function explanation
+    // function maxExp(number1, number2) {
+    //     if (number1 >= number2) {
+    //         return number1;
+    //     }
+    //     return number2;
+    //    }    
+    //    console.log(maxExp(25, 5))
+
+     // Arrow explanation
+    //  function maxArrow(number1, number2) {
+    //     if (number1 >= number2) {
+    //         return number1;
+    //     }
+    //     return number2;
+    //    }    
+    //    console.log(maxArrow(5, 7))
+
+    //    function maxDec(number0, number3) {
+    //     if (number0 <= number3) {
+    //         return number3
+    //     }
+    //     return number0
+    //    }
+    //    console.log(maxArrow(2, 7))
+
+    //    function maxExp (number01, number02) {
+    //     if (number01 >= number02) {
+    //         return number01
+    //     }
+    //     return number02
+    //     }
+    //     console.log(maxExp(11, 10))
+
+
+       //Function declaration
+    //    function reveseDec (number) {
+    //     const numberStr = String(number);
+    //     const reversedStr = numberStr.split(''). reverse(''). join('');
+    //     return Number(reversedStr)
+    //    }
+    //    console.log(reveseDec(15))
+
+       //Function expression
+    //    function reveseExp (number) {
+    //     const numberStr = String(number);
+    //     const reversedStr = numberStr.split(''). reverse(''). join('');
+    //     return Number(reversedStr)
+    //    }
+    //    console.log(reveseExp(1234))
+
+    //Function expression
+    // function reveseArrow (number) {
+    //     const numberStr = String(number);
+    //     const reversedStr = numberStr.split(''). reverse(''). join('');
+    //     return Number(reversedStr)
+    //    }
+    //    console.log(reveseArrow(1254))
+       
 
