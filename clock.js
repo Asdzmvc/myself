@@ -442,5 +442,23 @@
     //     return Number(reversedStr)
     //    }
     //    console.log(reveseArrow(1254))
-       
+
+
+    // const languages = ['eng', 'ru', 'uz'];
+    // console.log(languages)
+
+    // const helloArray = ['h', 'e', 'l', 'l', 'o'] 
+    // console.log(helloArray(0));   
+    
+    // const helloJava = ['saaa', 66352];
+    // console.log(helloJava)
+
+    // let codeLang = ['java', 'go']
+    // codeLang.push('json')
+    // codeLang.push('react')
+    // console.log(codeLang);
+
+    // let codeLang = ['java', 'go'];  
+    // codeLang.unshift('sass');
+    // console.log(codeLang);
 
