@@ -462,3 +462,11 @@
     // codeLang.unshift('sass');
     // console.log(codeLang);
 
+   //  let language = ['python', 'script'];
+   //  language.unshift('swift');
+   //  console.log(language);
+
+   // let constan = ['mers', 'bmw'];
+   // constan.push('audi');
+   // console.log(constan)
+
