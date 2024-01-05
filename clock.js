@@ -470,14 +470,67 @@
    // constan.push('audi');
    // console.log(constan)
 
-   function ask(question, yes, no) {
-      if (confirm(question)) yes();
-      else no();
-    }
+   // function ask(question, yes, no) {
+   //    if (confirm(question)) yes();
+   //    else no();
+   //  }
     
-    ask(
-      "Do you agree?",
-      function() { alert("You agreed."); },
-      function() { alert("You canceled the execution."); }
-    );
+   //  ask(
+   //    "Do you agree?",
+   //    function() { alert("You agreed."); },
+   //    function() { alert("You canceled the execution."); }
+   //  );
 
+   //  function askAgain(question, yes, no) {
+   //    if (confirm(question)) yes();
+   //    else no()
+   //  }
+   //  askAgain(
+   //    "do you agree?",
+   //    function() {alert('You agreed.')},
+   //    function() {alert("You cenceled the execution."); }
+   //  );
+
+// const languages = ['js', 'java', 'go']
+// languages[1] = 'swift';
+// console.log(languages);
+
+// const langs = ['samsung', 'vivo', 'oppo'];
+// langs.push('apple');
+// console.log(langs)
+
+// const lags = ['samsung', 'vivo', 'oppo'];
+// lags.unshift('apple');
+// console.log(lags);
+
+
+// let year = prompt('In which year was ECMAScript-2015 specification published?', '');
+
+// if (year == 2015) alert( 'You are right!' );
+
+// const languagges = ['clans', 'forbids', 'constrols'];
+// languagges.unshift('clans');
+// languagges[1] = ('scroll');
+// console.log(languagges);
+// let saturn = prompt('How much does it cost this flour?', '');
+// if (saturn == $10) alert('you are right');
+// console.log(saturn);
+
+
+// // Finding the factors of a number
+// let number = prompt('Enter a number to find its factors:', '');
+
+// if (number == '') {
+//  alert('You need to enter a number.');
+// } else {
+//  let factors = [];
+//  for (let i = 1; i <= number; i++) {
+//     if (number % i == 0) {
+//       factors.push(i);
+//     }
+//  }
+//  alert(`The factors of ${number} are: ${factors.join(', ')}`);
+// }
+
+if (n < 0)
+  alert(`Power ${n} is not supported`);
