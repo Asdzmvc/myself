@@ -532,5 +532,26 @@
 //  alert(`The factors of ${number} are: ${factors.join(', ')}`);
 // }
 
-if (n < 0)
-  alert(`Power ${n} is not supported`);
+// if (n < 0)
+//   alert(`Power ${n} is not supported`);
+
+
+//   let user = {
+//    name: "John",
+//    age: 30
+//  }; 
+// console.log(user)
+
+// const shares = ['bluetooth', 'wifi', 'nearby share'];
+// console.log(shares);
+
+// let str = '𝒳😂';
+// for (let char of str) {
+//     alert( char ); // 𝒳, and then 😂
+// }
+
+// let string = 'A👀';
+// for (let char of string) {
+//    alert( char )
+// }
+
