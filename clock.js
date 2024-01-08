@@ -555,3 +555,16 @@
 //    alert( char )
 // }
 
+// let languages = ['java', 'go', 'python'];
+// languages[0] = ('swift');
+// console.log(languages);
+
+// const languages = ['js', 'java', 'go', 'python'];
+// const deleteLanguages = languages.pop();
+// console.log(languages);
+// console.log(deleteLanguages);
+
+let languages = ['js', 'java', 'go', 'swift'];
+const deleteLanguages = languages.shift();
+console.log(languages);
+console.log(deleteLanguages);
