@@ -564,7 +564,18 @@
 // console.log(languages);
 // console.log(deleteLanguages);
 
-let languages = ['js', 'java', 'go', 'swift'];
-const deleteLanguages = languages.shift();
-console.log(languages);
-console.log(deleteLanguages);
+// let languages = ['js', 'java', 'go', 'swift'];
+// const deleteLanguages = languages.shift();
+// console.log(languages);
+// console.log(deleteLanguages);
+
+// let x = BigInt(123456789987456321);
+// let type = typeof x;
+
+// let x = 21214545487879n;
+// let y = 48784646415457n;
+// let z = x * y;
+
+let x = 12;
+let y = 12;
+let z = y * x;
