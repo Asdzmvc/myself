@@ -571,11 +571,106 @@
 
 // let x = BigInt(123456789987456321);
 // let type = typeof x;
+// console.log(x)
 
 // let x = 21214545487879n;
 // let y = 48784646415457n;
 // let z = x * y;
+// console.log(z)
 
-let x = 12;
-let y = 12;
-let z = y * x;
+// let x = 12;
+// let y = 12;
+// let z = y * x;
+
+// let x = 123;
+// x.toString();
+// (123).toString();
+// (100 + 23).toString();
+
+// let x = 9.656;
+// x.toFixed(0);
+// x.toFixed(2);
+// x.toFixed(4);
+// x.toFixed(6);
+// console.log(x)
+
+// const d = new Date("2015-03-25");
+// console.log(d);
+
+// let text = "Visit W3Schools!";
+// let n = text.search("W3Schools");
+// console.log(n)
+
+// let x = BigInt(99999999999);
+// let type = typeof x;
+// console.log(x)
+
+// let a = BigInt(99999999999999999989n);
+// let b = BigInt(99999999999889999978n);
+// let s = a * b;
+// console.log(s)
+
+// let a = 5, b = 10, c = 5;
+// const z = a
+
+// console.log(a == c); //true
+// console.log(a === c); //false
+// console.log(a == z); //true
+// console.log(a === z); //true
+// console.log(a != b); //true
+// console.log(a != z); //false
+// console.log(a > b); //false
+// console.log(a < b); //true
+// console.log(a >= b); //false
+// console.log(a <= b); //true
+
+ // Get the value from the input
+ const birthday = birthdayInput.value;
+
+ // Check if the value is empty
+ if (birthday === "") {
+   // If the value is empty, show an alert
+ const birthdayValue = birthdayEl.value;
+ if (birthdayValue === "") {
+   alert("Please enter your birthday");
+ } else {
+   // If the value is not empty, calculate the age
+   const age = getAge(birthday);
+
+   // Show the result
+   resultElement.innerHTML = `Your age is ${age} ${
+     age > 1 ? "years" : "year" // Check if the age is more than 1
+   } old`;
+   const age = getAge(birthdayValue);
+   resultEl.innerText = `Your age is ${age} ${age > 1 ? "years" : "year"} old`;
+ }
+}
+
+// Function to calculate the age
+function getAge(birthDay) {
+ // Get the current date
+function getAge(birthdayValue) {
+ const currentDate = new Date();
+
+ // Get the birthday date
+ const birthdayDate = new Date(birthDay);
+
+ // Calculate the age
+ const age = currentDate.getFullYear() - birthdayDate.getFullYear();
+
+ const birthdayDate = new Date(birthdayValue);
+ let age = currentDate.getFullYear() - birthdayDate.getFullYear();
+ const month = currentDate.getMonth() - birthdayDate.getMonth();
+
+ if (
+   month < 0 ||
+   (month === 0 && currentDate.getDate() < birthdayDate.getDate())
+ ) {
+   age--;
+ }
+
+ // Return the age
+ return age;
+}
+
+btnEl.addEventListener("click", calculateAge);
