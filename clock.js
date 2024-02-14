@@ -625,52 +625,111 @@
 // console.log(a <= b); //true
 
  // Get the value from the input
- const birthday = birthdayInput.value;
+//  const birthday = birthdayInput.value;
 
- // Check if the value is empty
- if (birthday === "") {
-   // If the value is empty, show an alert
- const birthdayValue = birthdayEl.value;
- if (birthdayValue === "") {
-   alert("Please enter your birthday");
- } else {
-   // If the value is not empty, calculate the age
-   const age = getAge(birthday);
+//  // Check if the value is empty
+//  if (birthday === "") {
+//    // If the value is empty, show an alert
+//  const birthdayValue = birthdayEl.value;
+//  if (birthdayValue === "") {
+//    alert("Please enter your birthday");
+//  } else {
+//    // If the value is not empty, calculate the age
+//    const age = getAge(birthday);
 
-   // Show the result
-   resultElement.innerHTML = `Your age is ${age} ${
-     age > 1 ? "years" : "year" // Check if the age is more than 1
-   } old`;
-   const age = getAge(birthdayValue);
-   resultEl.innerText = `Your age is ${age} ${age > 1 ? "years" : "year"} old`;
- }
-}
+//    // Show the result
+//    resultElement.innerHTML = `Your age is ${age} ${
+//      age > 1 ? "years" : "year" // Check if the age is more than 1
+//    } old`;
+//    const age = getAge(birthdayValue);
+//    resultEl.innerText = `Your age is ${age} ${age > 1 ? "years" : "year"} old`;
+//  }
+// }
 
-// Function to calculate the age
-function getAge(birthDay) {
- // Get the current date
-function getAge(birthdayValue) {
- const currentDate = new Date();
+// // Function to calculate the age
+// function getAge(birthDay) {
+//  // Get the current date
+// function getAge(birthdayValue) {
+//  const currentDate = new Date();
 
- // Get the birthday date
- const birthdayDate = new Date(birthDay);
+//  // Get the birthday date
+//  const birthdayDate = new Date(birthDay);
 
- // Calculate the age
- const age = currentDate.getFullYear() - birthdayDate.getFullYear();
+//  // Calculate the age
+//  const age = currentDate.getFullYear() - birthdayDate.getFullYear();
 
- const birthdayDate = new Date(birthdayValue);
- let age = currentDate.getFullYear() - birthdayDate.getFullYear();
- const month = currentDate.getMonth() - birthdayDate.getMonth();
+//  const birthdayDate = new Date(birthdayValue);
+//  let age = currentDate.getFullYear() - birthdayDate.getFullYear();
+//  const month = currentDate.getMonth() - birthdayDate.getMonth();
 
- if (
-   month < 0 ||
-   (month === 0 && currentDate.getDate() < birthdayDate.getDate())
- ) {
-   age--;
- }
+//  if (
+//    month < 0 ||
+//    (month === 0 && currentDate.getDate() < birthdayDate.getDate())
+//  ) {
+//    age--;
+//  }
 
- // Return the age
- return age;
-}
+//  // Return the age
+//  return age;
+// }
 
-btnEl.addEventListener("click", calculateAge);
+// btnEl.addEventListener("click", calculateAge);
+
+
+
+
+
+
+
+// Variables
+
+let x = 10;
+let y = 20;
+let z = x * y;
+
+// Example using let
+let a = 105;
+let b = 15;
+let c = a * b;
+
+// Example using const
+const p = 45;
+const d = 5;
+const w = p / d;
+
+// Mixed example
+const price1 = 5;
+const price2 = 7;
+let total = price1 + price2;
+
+// const pi = 3.14;
+// let person = "John Doe";
+// let answer = 'Yes I am!';
+
+// One statement, many variables
+// let person = "John Doe", carName = "Volvo", price = 200;
+
+// In multiple lines
+
+let person = "John Doe";
+let carName = "Volvo";
+let price = 200;
+
+//  With $
+let $ = "Hello World";
+let $$$ = 2;
+let $myMoney = 5
+
+//   $("p") means 'select all p elements'
+
+//  Javascript Underscore (_)
+let _lastName = "Azamov";
+let _x = 15;
+let _150 = 15;
+
+//  Javascript arithmetic
+
+let f = 5 + 5 + 2;
+
+//  And with strings
+let numbers = "5" + 2 + 7 + 2; 
