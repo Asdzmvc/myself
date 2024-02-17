@@ -683,53 +683,86 @@
 
 // Variables
 
-let x = 10;
-let y = 20;
-let z = x * y;
+// let x = 10;
+// let y = 20;
+// let z = x * y;
 
-// Example using let
-let a = 105;
-let b = 15;
-let c = a * b;
+// // Example using let
+// let a = 105;
+// let b = 15;
+// let c = a * b;
 
-// Example using const
-const p = 45;
-const d = 5;
-const w = p / d;
+// // Example using const
+// const p = 45;
+// const d = 5;
+// const w = p / d;
 
-// Mixed example
-const price1 = 5;
-const price2 = 7;
-let total = price1 + price2;
+// // Mixed example
+// const price1 = 5;
+// const price2 = 7;
+// let total = price1 + price2;
 
-// const pi = 3.14;
+// // const pi = 3.14;
+// // let person = "John Doe";
+// // let answer = 'Yes I am!';
+
+// // One statement, many variables
+// // let person = "John Doe", carName = "Volvo", price = 200;
+
+// // In multiple lines
+
 // let person = "John Doe";
-// let answer = 'Yes I am!';
+// let carName = "Volvo";
+// let price = 200;
 
-// One statement, many variables
-// let person = "John Doe", carName = "Volvo", price = 200;
+// //  With $
+// let $ = "Hello World";
+// let $$$ = 2;
+// let $myMoney = 5
 
-// In multiple lines
+// //   $("p") means 'select all p elements'
 
-let person = "John Doe";
-let carName = "Volvo";
-let price = 200;
+// //  Javascript Underscore (_)
+// let _lastName = "Azamov";
+// let _x = 15;
+// let _150 = 15;
 
-//  With $
-let $ = "Hello World";
-let $$$ = 2;
-let $myMoney = 5
+// //  Javascript arithmetic
 
-//   $("p") means 'select all p elements'
+// let f = 5 + 5 + 2;
 
-//  Javascript Underscore (_)
-let _lastName = "Azamov";
-let _x = 15;
-let _150 = 15;
+// //  And with strings
+// let numbers = "5" + 2 + 7 + 2; 
 
-//  Javascript arithmetic
+// Const and let
+// {
+//    const x = 2;
+//    }
 
-let f = 5 + 5 + 2;
+// var x = 16.5;
+// var x = 20.2;
+// x = 71;
+   
+// const x = 80;     // nllowed
+// x = 41;           // not allowed
+// var x = 10;       // not allowed
+// let x = 201;      // not allowed
+// const x = 67;     // not allowed
 
-//  And with strings
-let numbers = "5" + 2 + 7 + 2; 
+// {
+//    const x = 22;   // Allowed
+//    x = 44;         // Not allowed
+//    var x = 2;     // Not allowed
+//    let x = 2;     // Not allowed
+//    const x = 2;   // Not allowed
+//  }
+
+const x = 11;       // allowed
+
+{
+  const x = 15;     // allowed
+}
+
+{
+  const x = 44;     // allowed
+}
