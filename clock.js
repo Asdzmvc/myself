@@ -757,12 +757,41 @@
 //    const x = 2;   // Not allowed
 //  }
 
-const x = 11;       // allowed
+// const x = 11;       // allowed
 
-{
-  const x = 15;     // allowed
-}
+// {
+//   const x = 15;     // allowed
+// }
 
-{
-  const x = 44;     // allowed
-}
+// {
+//   const x = 44;     // allowed
+// }
+
+//   Operators
+// let a = 3;
+// let x = (100 + 50) * a;
+// console.log(x);
+
+// const c = 15;
+// let b = 101;
+// let y = (c * 42) + 720 * c + b;
+// console.log(y);
+
+// let text1 = "A";
+// let text2 = "B";
+// let result = text1 < text2;
+// console.log(result);
+
+// let number1 = "42";
+// let number2 = "808";
+// let result = number1 >= number2;
+// console.log(result);
+
+let text1 = "John";
+let text2 = "Goat";
+let result = text1 + " " + text2;    // " " can also used to add (concatenate) string
+console.log(result);
+
+let describe = "Bmw is really";
+describe += "fast car";    //  += topshiriq operatori 2ta stringni birlashtirish uchun ham ishlatilinadi
+console.log()
