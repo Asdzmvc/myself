@@ -785,13 +785,19 @@
 // let number1 = "42";
 // let number2 = "808";
 // let result = number1 >= number2;
+console.log(result);
+
+// let text1 = "John";
+// let text2 = "Goat";
+// let result = text1 + " " + text2;    // " " can also used to add (concatenate) string
 // console.log(result);
+
+let describe = "Bmw is really";
+describe += "fast car";    //  += topshiriq operatori 2ta stringni birlashtirish uchun ham ishlatilinadi
+console.log()
+
 
 let text1 = "John";
 let text2 = "Goat";
 let result = text1 + " " + text2;    // " " can also used to add (concatenate) string
 console.log(result);
-
-let describe = "Bmw is really";
-describe += "fast car";    //  += topshiriq operatori 2ta stringni birlashtirish uchun ham ishlatilinadi
-console.log()
